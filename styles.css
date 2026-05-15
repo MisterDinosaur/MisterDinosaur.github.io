@@ -1,6 +1,9 @@
+@import url('https://googleapis.com');
+
 iframe {
-    width: 390px;
-    height: 290px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 
 a.button {
@@ -15,4 +18,30 @@ a.button {
 
 a.button:hover {
   background-color: #307437;
+}
+
+div.video {
+    display: inline-block;
+    width: 49%;
+}
+
+div.buttons {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+div.row {
+    display: flex;
+    gap: 1%;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
