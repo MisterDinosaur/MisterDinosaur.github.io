@@ -1,4 +1,18 @@
 iframe {
-    width: "320";
-    height: "120";
+    width: 390px;
+    height: 290px;
+}
+
+a.button {
+  background-color: #215026;
+  color: #cb9c2c;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a.button:hover {
+  background-color: #307437;
 }
