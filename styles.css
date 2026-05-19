@@ -44,9 +44,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: drop-shadow(1% 1% 1% #222);
+    filter: drop-shadow(3px 3px 3px #222);
 }
 
 h1 {
-    text-shadow: 2px 2px 2px #222;
+    text-shadow: 2px 2px 1px #cb9c2c;
 }
