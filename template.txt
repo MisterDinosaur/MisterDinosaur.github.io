@@ -1,7 +1,8 @@
-            <iframe src="/preview"></iframe><br>
-            <div class="buttons">
-                <a href="asdf1.htm" target="_blank">Pretest 1</a>
-                <a href="asdf2.htm" target="_blank">Pretest 2</a>
-                <a href="asdf3.htm" target="_blank">Pretest 3</a>
-                <a href="asdf4.htm" target="_blank">Pretest 4</a>
-            </div>
+    <div>
+        <div class="buttons">
+            <a class="button" href="asdf1.htm" target="_blank">Pretest 1</a>
+            <a class="button" href="asdf2.htm" target="_blank">Pretest 2</a>
+            <a class="button" href="asdf3.htm" target="_blank">Pretest 3</a>
+            <a class="button" href="asdf4.htm" target="_blank">Pretest 4</a>
+        </div>
+    </div>
