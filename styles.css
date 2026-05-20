@@ -7,17 +7,17 @@ iframe {
 }
 
 a.button {
-  background-color: #215026;
-  color: #cb9c2c;
-  padding: 10px 20px;
-  text-align: center;
-  display: inline-block;
-  border-radius: 4px;
-  text-decoration: none;
+    background-color: #215026;
+    color: #cb9c2c;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 a.button:hover {
-  background-color: #307437;
+    background-color: #307437;
 }
 
 div.video {
@@ -44,9 +44,43 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #555);
 }
 
 h1 {
-    text-shadow: 2px 2px 1px #cb9c2c;
+    text-shadow: 1px 1px 1px #cb9c2c;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li.nav {
+  display: inline;
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: #cb9c2c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link to #111 (black) on hover */
+li.nav a:hover {
+  background-color: #000;
+}
+
+ul.nav li a.active {
+  background-color: #307437;
 }
